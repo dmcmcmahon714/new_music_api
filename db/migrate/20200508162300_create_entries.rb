@@ -3,7 +3,7 @@ class CreateEntries < ActiveRecord::Migration[6.0]
     create_table :entries do |t|
       t.string :artist
       t.string :title
-      t.string :date
+      t.date :date
 
       t.timestamps
     end
